@@ -11,6 +11,8 @@ Users will be able to add book title and author, reading start and end dates, a 
 
 ### Adding a book title
 Usage:
+* .whatcha_reading manage
+* 
 
 Acceptance Criteria:
 
