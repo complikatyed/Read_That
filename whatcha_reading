@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+require 'highline/import'
+
+menu_prompt = <<EOS
+1. Add a book
+2. Edit book info
+3. View book list
+4. Exit
+EOS
+
+choose do |menu|
+  menu.prompt = ""
+
+  menu.choice('Add a book')
+    { ask("What is the book's title?\n", answer_type = String) }
+
+  menu.choice('Edit book info') { say("No books found. Add a book.\n") }
+  menu.choice('View book list') { say("No books found. Add a book.\n") }
+  menu.choice('Exit') { say("Go read something!\n") }
+
+end
