@@ -14,15 +14,35 @@ In order to keep track of the books I'm reading, I want to add a new book inform
   * Book Title
   * Book Author
   * Book Genre
+  * Start Date (will be the date information is entered)
   * Book Rating (will initially be blank)
   * Book Topic (1 sentence description, will initially be blank)
-  * Start Date (will be the date information is entered)
   * End Date (will initially be blank)
 
 Usage:
 > ./read_that manage
-> 
->
+> > Do you want to add or edit?
+> User answers ADD
+> > Please enter the book's title.
+> User types in title
+> > Please enter the FIRST NAME of the book's author.
+> User types in author's first name
+> > Please enter the LAST NAME of the book's author.
+> User types in the author's last name
+> > Does your book have another author? Y or N?
+> if user types Y, the previous questions are repeated
+> if user types N, the next question prints to screen
+> > Please enter the book's GENRE  {Can we do a dropdown menu?}
+> User enters the genre
+> Start date is added automatically based on today's date
+> Rating, Topic, and End date fields are added automatically
+> Book information prints to the screen
+> > Is this information correct? Y or N?
+> if user types N, {Need editing commands here - how?}
+> if user types Y, screen prints "Do you want to add another book?"
+> if user types N, EXIT
+> if user types Y, start over with Please enter the book's title and subsequent steps
+
 
 Acceptance Criteria:
 * The new book title is added to the database and given a unique id number
