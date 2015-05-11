@@ -20,7 +20,7 @@ In order to keep track of the books I'm reading, I want to add a new book inform
   * End Date (will initially be blank)
 
 Usage:
-> `./read_that manage`
+> `./whatcha_reading manage`
 
 > `Do you want to add, edit, or view?`
 
@@ -82,7 +82,7 @@ Acceptance Criteria:
 In order to note when I have finished reading a particular book, I want to edit the end date field and add a date.
 
 Usage:
-> `./read_that manage`
+> `./whatcha_reading manage`
 
 > `Do you want to add, edit, or view?`
 
@@ -125,7 +125,7 @@ Acceptance Criteria:
 In order to remind myself what the book was about, I want to edit the topic field.
 
 Usage:
-> `./read_that manage`
+> `./whatcha_reading manage`
 
 > `Do you want to add, edit, or view?`
 
@@ -162,7 +162,7 @@ In order to remind myself of whether I liked the book, I want to add a simple ra
 
 Usage:
 
-> `./read_that manage`
+> `./whatcha_reading manage`
 
 > `Do you want to add, edit, or view?`
 
@@ -198,7 +198,7 @@ Acceptance Criteria:
 In order to remind myself of the books I've read, I want to see a list of all titles in the record.
 
 Usage:
-> `./read_that manage`
+> `./whatcha_reading manage`
 
 > `Do you want to add, edit, or view?`
 
@@ -223,7 +223,7 @@ Acceptance Criteria:
 In order to evaluate the volume and speed of my reading, or to determine how many books I've read in a given period of time, I want to print out a list of start dates or end dates.
 
 Usage:
-> `./read_that manage`
+> `./whatcha_reading manage`
 
 > `Do you want to add, edit, or view?`
 
@@ -246,7 +246,7 @@ Acceptance Criteria:
 In order to recommend books for other readers, I want to be able to see the books I've read in order of their ranking.
 
 Usage:
-> `./read_that manage`
+> `./whatcha_reading manage`
 
 > `Do you want to add, edit, or view?`
 
