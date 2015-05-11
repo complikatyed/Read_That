@@ -81,6 +81,16 @@ Acceptance Criteria:
 In order to note when I have finished reading a particular book, I want to edit the end date field and add a date.
 
 Usage:
+> `./read_that manage`
+
+> `Do you want to add or edit?`
+
+> User answers EDIT
+
+> `What book would you like to edit?`
+
+> User types in book title
+> Not sure how to proceed from here...
 
 
 Acceptance Criteria:
