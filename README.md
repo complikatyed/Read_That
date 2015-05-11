@@ -20,8 +20,9 @@ In order to keep track of the books I'm reading, I want to add a new book inform
   * End Date (will initially be blank)
 
 Usage:
-* .whatcha_reading manage
-* 
+> ./read_that manage
+> 
+>
 
 Acceptance Criteria:
 * The new book title is added to the database and given a unique id number
