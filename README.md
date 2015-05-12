@@ -20,26 +20,26 @@ In order to keep track of the books I'm reading, I want to add a new book inform
   * End Date (will initially be blank)
 
 Usage:
-> `./whatcha_reading`
-> `1. Add a book`
-> `2. Edit book data`
-> `3. View book information`
-> `4. Exit`
-> User answers ADD
-> `Please enter the book's title.`
-> User types in title
-> `Please enter the FIRST NAME of the book's author.`
-> User types in author's first name
-> `Please enter the LAST NAME of the book's author.`
-> User types in the author's last name
-> `Does your book have another author? Y or N?`
-> if user types Y, the previous questions are repeated
-> if user types N, the next question prints to screen
-> `Please enter the book's GENRE`  {Can we do a dropdown menu?}
-> User enters the genre
-> `Please enter a reading start date YY/MM/DD`
->   Rating, Topic, and End date fields are added automatically
-> Book information prints to the screen
+> `./whatcha_reading`  
+> `1. Add a book`  
+> `2. Edit book data`  
+> `3. View book information`  
+> `4. Exit`  
+> User answers ADD  
+> `Please enter the book's title.`  
+> User types in title  
+> `Please enter the FIRST NAME of the book's author.`  
+> User types in author's first name  
+> `Please enter the LAST NAME of the book's author.`  
+> User types in the author's last name  
+> `Does your book have another author? Y or N?`  
+> if user types Y, the previous questions are repeated  
+> if user types N, the next question prints to screen  
+> `Please enter the book's GENRE`  {Can we do a dropdown menu?}  
+> User enters the genre  
+> `Please enter a reading start date YY/MM/DD`  
+>   Rating, Topic, and End date fields are added automatically  
+> Book information prints to the screen  
 
 > `Is this information correct? Y or N?`
 
