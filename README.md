@@ -40,16 +40,12 @@ Usage:
 > `Please enter a reading start date YY/MM/DD`  
 >   Rating, Topic, and End date fields are added automatically  
 > Book information prints to the screen  
-
-> `Is this information correct? Y or N?`
-
-> if user types N, {Need editing commands here - how?}
-
-> if user types Y, screen prints `"Do you want to add another book?"`
-
-> if user types N, `EXIT`
-
-> if user types Y, start over with `Please enter the book's title and subsequent steps`
+> `Is this information correct? Y or N?`  
+> if user types N, {Need editing commands here - how?}  
+> if user types Y, screen prints `"Do you want to add another book?"`  
+> if user types N, `EXIT`  
+> if user types Y, start over with  
+> `Please enter the book's title and subsequent steps`  
 
 
 Acceptance Criteria:
