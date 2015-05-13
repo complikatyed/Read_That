@@ -54,26 +54,8 @@ require_relative '../test_helper.rb'
 # * The database and accompanying tables are updated
 
 
-class AddingNewBookTest < Minitest::Test
+class AddNewBookTest < Minitest::Test
 
-
-  def test_exit_method
-    shell_output = ""
-    expected_output = ""
-    IO.popen('./whatcha_reading', 'r+') do |pipe|
-      expected_output = <<EOS
-1. Add a book
-2. Edit book info
-3. View book list
-4. Exit
-EOS
-      pipe.puts "4"
-      expected_output << "Go read something!\n"
-      pipe.close_write
-      shell_output = pipe.read
-    end
-    assert_equal expected_output, shell_output
-  end
 
   def test_add_menu_choice_asks_for_title
     shell_output = ""

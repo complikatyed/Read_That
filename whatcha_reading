@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 require 'highline/import'
 
+Dir["./app/**/*.rb"].each { |f| require f }
+Dir["./lib/*.rb"].each { |f| require f }
+
 menu_prompt = <<EOS
 1. Add a book
 2. Edit book info
@@ -11,11 +14,10 @@ EOS
 choose do |menu|
   menu.prompt = ""
 
-  menu.choice('Add a book')
-    { ask("What is the book's title?\n", answer_type = String) }
-
+  books_controller = BooksController.new
+  menu.choice('Add a book')  { say("What is the book's title?\n") }
   menu.choice('Edit book info') { say("No books found. Add a book.\n") }
-  menu.choice('View book list') { say("No books found. Add a book.\n") }
+  menu.choice('View book list') { books_controller.index }
   menu.choice('Exit') { say("Go read something!\n") }
 
 end

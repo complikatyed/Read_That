@@ -1,0 +1,42 @@
+Tests I anticipate needing:
+
+On Edit book data:
+  1. Did the correct book get accessed?
+  2. What do you want to edit?
+      A. START DATE
+          1. Do you want to add today's date?
+          2. Is date given in correct format  (YY/MM/DD)?
+          3. Is correct date captured by database (need return message?)
+      B. END DATE
+          1.  Do you want to add today's date?
+          2.  Is date given in correct format? (YY/MM/DD)?
+          3.  Is correct date captured by database (return message?)
+      C. edit to ADD RANKING
+          1.  Ranking must be in the range of 0 to 5
+          2.  Ranking must be an integer
+          3.  Ranking cannot be left blank
+      D. edit to ADD TOPIC SENTENCE
+          1.  Topic sentence must not exceed n characters?
+          2.  Characters must be alpha/numeric/punctuation
+          3.  Guard for SQL command characters
+          4.  Topic sentence cannot be left blank
+
+On ADD BOOK DATA
+  1. Add title characters must be alpha/numeric
+  2. Guard for SQL command characters/words
+  3. Test for one author
+  4. Test for names given in correct order
+  5. Test for multiple authors
+  6. Query for start date today
+  7. Test for correct start date
+  8. Test for additional data fields added as null
+     (Is there a difference between blank and null?)
+
+
+On LIST BOOK DATA
+  1. Test for no books in data base
+  2. Test for books printing with complete title
+  3. Test for books printing with author name
+  4. Test for sort by dates
+  5. Test for sort by ranking
+  6. Test for sort by author
